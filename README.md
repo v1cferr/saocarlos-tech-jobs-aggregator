@@ -12,6 +12,21 @@ Objetivo:
 
 Status: em desenvolvimento
 
+## Ambiente e dependências
+
+Este projeto utiliza o **uv** como gerenciador de dependências e ambiente Python.
+
+### Requisitos
+
+- Python >= 3.11
+- uv (<https://github.com/astral-sh/uv>)
+
+### Setup
+
+```bash
+uv sync
+```
+
 ## Documentação
 
 - [Fontes de Vagas](docs/sources.md)
