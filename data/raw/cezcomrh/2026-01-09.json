@@ -4,24 +4,32 @@
     "funcao": "tecnologia",
     "cidade": "São Carlos"
   },
-  "scraped_at": "2026-01-09T20:30:13.605035",
+  "scraped_at": "2026-01-09T17:46:50.254299",
   "total": 2,
   "vacancies": [
     {
-      "id": null,
-      "title": "ANALISTA DE SISTEMAS I#893",
-      "location": null,
+      "id": "66992782-7463-4503-be59-ff84b18d32fb",
+      "title": "ANALISTA DE TI",
+      "location": "São Carlos - SP",
       "urgent": false,
-      "url": null,
-      "source": "CezcomRH"
+      "url": "https://cezcomrh.tweezer.jobs/candidato/vaga/ver_vaga/66992782-7463-4503-be59-ff84b18d32fb",
+      "source": "CezcomRH",
+      "company": "CEZCOM CONSULTORIA &amp; RH LTDA",
+      "contract_type": null,
+      "description": "&lt;span style=&quot;font-weight: bold&quot;&gt;ANALISTA DE SISTEMAS I&lt;/span&gt;&lt;br /&gt;\r\nSão Carlos SP\r\n&lt;p&gt;&lt;span style=&quot;font-weight: bold&quot;&gt;Propósito do cargo&lt;/span&gt;: Atuar no desenvolvimento e na manutenção dos sistemas, realizar testes integrados avaliando performance, usabilidade, resultados esperados, manter a padronização e segurança dos códigos produzidos.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;span style=&quot;font-weight: bold&quot;&gt;Descrição detalhada:&lt;/span&gt;&lt;br /&gt;\r\nAuxiliar no desenvolvimento e revisão de especificações de sistemas, atuando como ponte entre os Desenvolvedores e o Analista de Sistemas II;&lt;br /&gt;\r\nDesenvolver, validar e testar, módulos ou funcionalidades, com foco na padronização, qualidade, usabilidade, performance e segurança;&lt;br /&gt;\r\nPrestar suporte ao Desenvolvedor na produção e padronização de código, além de auxiliar na distribuição e priorização de tarefas para a criação de rotinas de sistemas de menor complexidade, sempre aplicando as boas práticas de programação e ajudando-o a superar desafios técnicos;&lt;br /&gt;\r\nRelatar e auxiliar no diagnóstico de problemas complexos colaborando com a equipe na solução;&lt;br /&gt;\r\nCriar e manter documentação técnica detalhada dos sistemas desenvolvidos. Realizar testes em processos inteiros de sistemas desenvolvidos, validando a geração e integração de dados, documentando e eliminando erros e desvios de resultados.&lt;br /&gt;\r\nRealizar suporte e treinamentos para usuários internos e membros da equipe;&lt;br /&gt;\r\nManter-se atualizado sobre as evoluções tecnológicas, especialmente na área de desenvolvimento de sistemas, buscando propor melhorias e inovações nos produtos e serviços desenvolvidos pelo setor de tecnologia;&lt;br /&gt;\r\nParticipar das decisões arquiteturais em colaboração com a equipe, propondo soluções e sugestões para otimizar a implementação dos sistemas, além de contribuir no planejamento de novas funcionalidades e na evolução contínua dos sistemas;&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;span style=&quot;font-weight: bold&quot;&gt;Formação acadêmica:&lt;/span&gt; Técnico, Tecnólogo ou superior incompleto (Sistemas de Informação, Análise de Sistemas, Engenharia da Computação, Ciência da Computação ou cursos correlatos.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;span style=&quot;font-weight: bold&quot;&gt;Conhecimentos obrigatórios&lt;/span&gt;: Estrutura de dados, banco de dados relacionados ( Oracle, SQL Server), lógica de programação, linguagem de programação orientada a objeto, conhecimento em ferramentas de versionamento(GIT) e familiaridade com o Microsoft Visual Studio.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;span style=&quot;font-weight: bold&quot;&gt;Conhecimentos desejáveis&lt;/span&gt;: Metodologias ágeis, técnicas de teste de software e documentação&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;span style=&quot;font-weight: bold&quot;&gt;Soft Skills: &lt;/span&gt;Gestão do&lt;span style=&quot;font-weight: bold&quot;&gt; &lt;/span&gt;tempo, facilidade para o trabalho em equipe, proatividade, comunicação eficaz, organização, escuta ativa, discrição e atenção aos detalhes.&lt;/p&gt;\r\n\r\n&lt;p&gt;&lt;span style=&quot;font-weight: bold&quot;&gt;Vaga: CLT efetivo&lt;br /&gt;\r\nSalário&lt;/span&gt;: a combinar&lt;br /&gt;\r\n&lt;span style=&quot;font-weight: bold&quot;&gt;Benefícios&lt;/span&gt;: Vale alimentação (Ticket Flex), Ticket Car, Plano de Saúde (UNIMED) e plano odontológico (UNIODONTO);&lt;br /&gt;\r\nHorário: de segunda a sexta-feira das 8h00 ás 18h00 com 2 horas de almoço&lt;/p&gt;\r\n",
+      "requirements": null
     },
     {
-      "id": null,
-      "title": "BANCO DE TALENTOS - (TI…#861",
-      "location": null,
+      "id": "605287ff-b225-4d67-9e5c-c62a95f7496e",
+      "title": "BANCO DE TALENTOS - (TI) TECNOLOGIA DA INFORMAÇÃO",
+      "location": "São Carlos - SP",
       "urgent": false,
-      "url": null,
-      "source": "CezcomRH"
+      "url": "https://cezcomrh.tweezer.jobs/candidato/vaga/ver_vaga/605287ff-b225-4d67-9e5c-c62a95f7496e",
+      "source": "CezcomRH",
+      "company": "CEZCOM CONSULTORIA &amp; RH LTDA",
+      "contract_type": null,
+      "description": "",
+      "requirements": null
     }
   ]
 }
