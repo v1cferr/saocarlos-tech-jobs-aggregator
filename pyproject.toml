@@ -4,14 +4,17 @@ version = "0.1.0"
 description = "Agregador de vagas de TI em São Carlos–SP a partir de fontes públicas"
 readme = "README.md"
 requires-python = ">=3.11"
+authors = [
+    { name = "Victor Ferreira (@v1cferr)", email = "dev.victorferreira@gmail.com" }
+]
 
 dependencies = [
     "requests",
     "pdfplumber",
 ]
 
-[tool.uv]   
-dev-dependencies = [
+[dependency-groups]   
+dev = [
     "ruff",
     "black",
 ]

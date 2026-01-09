@@ -54,3 +54,9 @@ com potencial ocorrência em São Carlos–SP.
 ## Outros
 
 - <https://saocarlosnotoque.com/emprego/>
+- <https://balcaodosca.com.br/>
+- <https://www.saocarlosagora.com.br/empregos/>
+
+### Contatos
+
+- <processoseletivo@santacasasaocarlos.com.br> `(16) 3509-1192 ou (16) 3509-1382`
