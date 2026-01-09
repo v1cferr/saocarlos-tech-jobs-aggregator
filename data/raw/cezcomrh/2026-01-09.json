@@ -1,0 +1,27 @@
+{
+  "source": "CezcomRH",
+  "query": {
+    "funcao": "tecnologia",
+    "cidade": "São Carlos"
+  },
+  "scraped_at": "2026-01-09T20:30:13.605035",
+  "total": 2,
+  "vacancies": [
+    {
+      "id": null,
+      "title": "ANALISTA DE SISTEMAS I#893",
+      "location": null,
+      "urgent": false,
+      "url": null,
+      "source": "CezcomRH"
+    },
+    {
+      "id": null,
+      "title": "BANCO DE TALENTOS - (TI…#861",
+      "location": null,
+      "urgent": false,
+      "url": null,
+      "source": "CezcomRH"
+    }
+  ]
+}

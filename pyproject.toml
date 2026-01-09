@@ -11,6 +11,7 @@ authors = [
 dependencies = [
     "requests",
     "pdfplumber",
+    "beautifulsoup4",
 ]
 
 [dependency-groups]   
