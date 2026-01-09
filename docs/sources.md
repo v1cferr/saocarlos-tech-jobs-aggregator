@@ -56,6 +56,10 @@ com potencial ocorrência em São Carlos–SP.
 - <https://saocarlosnotoque.com/emprego/>
 - <https://balcaodosca.com.br/>
 - <https://www.saocarlosagora.com.br/empregos/>
+- <https://vagas.solides.com.br/>
+- <https://www.vagas.com.br/>
+- <https://portal.ciee.org.br/>
+- <https://portal.gupy.io>
 
 ### Contatos
 
