@@ -1,4 +1,5 @@
 import json
+from html import unescape
 
 import requests
 from bs4 import BeautifulSoup
@@ -6,6 +7,13 @@ from bs4 import BeautifulSoup
 HEADERS = {
     "User-Agent": "saocarlos-tech-jobs-aggregator/0.1 (+https://github.com/v1cferr)",
 }
+
+
+def html_to_text(html: str) -> str:
+    if not html:
+        return None
+    soup = BeautifulSoup(unescape(html), "html.parser")
+    return soup.get_text("\n", strip=True)
 
 
 def scrape_vaga_detail(url: str) -> dict:
@@ -29,7 +37,8 @@ def scrape_vaga_detail(url: str) -> dict:
 
             if ld_json and ld_json.get("@type") == "JobPosting":
                 data["title"] = ld_json.get("title")
-                data["description"] = ld_json.get("description")  # Often contains HTML
+                data["description_html"] = ld_json.get("description")  # Raw HTML
+                data["contract_type"] = ld_json.get("employmentType")
 
                 org = ld_json.get("hiringOrganization")
                 if isinstance(org, dict):
@@ -54,13 +63,10 @@ def scrape_vaga_detail(url: str) -> dict:
             data["title"] = h2.get_text(strip=True)
 
     if not data.get("company"):
-        # Based on "CEZCOM CONSULTORIA & RH LTDA" appearing in text,
-        # usually it's in a specific div or just derived.
-        # For now, let's skip specific HTML parsing for company if JSON-LD failed,
-        # as the generic classes are hard to pin down without more samples.
+        # Helper to unescape if found via other means later
         pass
 
-    if not data.get("description"):
+    if not data.get("description_html"):
         # Look for the container having "Descrição detalhada"
         desc_header = soup.find(string=lambda t: t and "Descrição detalhada" in t)
         if desc_header:
@@ -68,13 +74,23 @@ def scrape_vaga_detail(url: str) -> dict:
             container = desc_header.find_parent("div")
             if container:
                 # Get all text from this container, effectively
-                data["description"] = container.get_text("\n", strip=True)
+                # fallback to saving text as html representation if real html unavailable
+                data["description_html"] = container.decode_contents()
+
+    # Final cleanup and normalization
+    if data.get("company"):
+        data["company"] = unescape(data.get("company"))
+
+    description_html = data.get("description_html")
+    # Clean text version
+    description_text = html_to_text(description_html) if description_html else None
 
     return {
         "title": data.get("title"),
         "company": data.get("company"),
         "location": data.get("location"),
-        "contract_type": None,  # Not clearly in JSON-LD usually (maybe employmentType)
-        "description": data.get("description"),
+        "contract_type": data.get("contract_type"),
+        "description_html": description_html,
+        "description_text": description_text,
         "requirements": None,  # Often mixed in description
     }
