@@ -122,7 +122,7 @@ def parse_vagas(html: str) -> list[dict]:
     return vagas
 
 
-def main() -> None:
+def run() -> str:
     funcao = "tecnologia"
     cidade = "São Carlos"
 
@@ -169,12 +169,17 @@ def main() -> None:
         "vacancies": all_vagas,
     }
 
-    output_file = OUTPUT_DIR / f"{datetime.now().date()}.json"
+    now = datetime.now()
+    output_file = OUTPUT_DIR / str(now.year) / f"{now.month:02d}" / f"{now.date()}.json"
+    output_file.parent.mkdir(parents=True, exist_ok=True)
+
     with output_file.open("w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
 
     print(f"[OK] {len(all_vagas)} vagas salvas em {output_file}")
 
+    return str(output_file.absolute())
+
 
 if __name__ == "__main__":
-    main()
+    run()

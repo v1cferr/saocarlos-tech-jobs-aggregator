@@ -1,5 +1,6 @@
 import io
 import json
+import os
 import re
 import ssl
 from datetime import datetime, timezone
@@ -125,7 +126,7 @@ def filter_tech_vacancies(text: str) -> list[str]:
     return results
 
 
-def main():
+def run() -> str:
     pdf = download_pdf(PDF_URL)
     text = extract_text(pdf)
 
@@ -145,13 +146,19 @@ def main():
         "results": matches,
     }
 
-    filename = f"data/raw/prefeitura/{datetime.now(timezone.utc).date()}.json"
+    now = datetime.now(timezone.utc)
+    filename = f"data/raw/prefeitura/{now.year}/{now.month:02d}/{now.strftime('%Y-%m-%d')}.json"
+
+    os.makedirs(os.path.dirname(filename), exist_ok=True)
+
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
     print(f"{len(matches)} possíveis vagas de TI encontradas.")
     print(f"Arquivo salvo em: {filename}")
 
+    return filename
+
 
 if __name__ == "__main__":
-    main()
+    run()
