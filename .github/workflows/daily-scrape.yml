@@ -1,8 +1,11 @@
 name: daily-scrape
 on:
   schedule:
-    - cron: '0 10 * * *' # todo dia 10:00 UTC
+    - cron: '0 10 * * 1-5' # dias úteis (seg-sex) 10:00 UTC
   workflow_dispatch: {}
+
+permissions:
+  contents: write
 
 jobs:
   scrape:
@@ -19,6 +22,17 @@ jobs:
         run: |
           uv sync
           uv run python main.py --all
+      - name: Commit and push data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "Nenhuma alteração para commitar"
+          else
+            git commit -m "🤖 Atualização automática de vagas - $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
       - name: Upload data
         uses: actions/upload-artifact@v4
         with:
