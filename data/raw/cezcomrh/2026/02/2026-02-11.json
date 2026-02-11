@@ -1,0 +1,37 @@
+{
+  "source": "CezcomRH",
+  "query": {
+    "funcao": "tecnologia",
+    "cidade": "São Carlos"
+  },
+  "scraped_at": "2026-02-11T10:25:15.962342",
+  "total": 2,
+  "vacancies": [
+    {
+      "id": "3e383e3d-446b-46d2-8714-29040a7cf87b",
+      "title": "ANALISTA SISTEMAS",
+      "location": "São Carlos - SP",
+      "urgent": false,
+      "url": "https://cezcomrh.tweezer.jobs/candidato/vaga/ver_vaga/3e383e3d-446b-46d2-8714-29040a7cf87b",
+      "source": "CezcomRH",
+      "company": "CEZCOM CONSULTORIA & RH LTDA",
+      "contract_type": "FULL_TIME",
+      "description_html": "ANALISTA DE SISTEMA I - com foco em IA&lt;br /&gt;\r\nSão Carlos SP&lt;br /&gt;\r\n&lt;br /&gt;\r\n&lt;span style=&quot;font-weight: bold&quot;&gt;Descrição da função&lt;/span&gt;&lt;br /&gt;\r\nAtuar diretamente no desenvolvimento de soluções em Inteligência Artificial, contribuindo para a evolução de aplicações institucionais utilizando modelos de linguagem, mecanismos de busca inteligente e fluxos de recuperação e contextualização de informações (RAG) e Model Context Protocol (MCP).&lt;br /&gt;\r\n&lt;br /&gt;\r\n&lt;span style=&quot;font-weight: bold&quot;&gt;Principais atribuições&lt;/span&gt;&lt;br /&gt;\r\nAtuar em iniciativas institucionais que utilizem modelos de linguagem (LLMs) e soluções de Inteligência Artificial aplicada.&lt;br /&gt;\r\nImplementar e manter fluxos básicos de RAG, incluindo indexação, recuperação e contextualização de informações.&lt;br /&gt;\r\nDesenvolver e manter integrações com APIs, sistemas internos e bases de dados institucionais.&lt;br /&gt;\r\nOrganizar, preparar e validar dados estruturados e não estruturados.&lt;br /&gt;\r\nExecutar testes funcionais, validações e atividades de homologação de soluções.&lt;br /&gt;\r\nElaborar e manter documentação técnica de códigos, processos e fluxos.&lt;br /&gt;\r\nAtuar de forma integrada com equipes técnicas e áreas usuárias, em conformidade com normas e procedimentos institucionais.&lt;br /&gt;\r\nZelar pela segurança da informação, confidencialidade e uso adequado dos dados. &lt;br /&gt;\r\n&lt;br /&gt;\r\n&lt;span style=&quot;font-weight: bold&quot;&gt;Formação&lt;/span&gt;&lt;br /&gt;\r\nEnsino superior cursando ou concluído em Tecnologia da Informação, Ciência de Dados, Engenharia, Computação ou áreas correlatas.&lt;br /&gt;\r\n&lt;br /&gt;\r\n&lt;span style=&quot;font-weight: bold&quot;&gt;Requisitos técnicos (essenciais)&lt;/span&gt;&lt;br /&gt;\r\nConhecimento básico a intermediário em Python.&lt;br /&gt;\r\nConhecimento introdutório em RAG (Retrieval-Augmented Generation) e Machine Learning.&lt;br /&gt;\r\nNoções de lógica de programação, estrutura de dados e orientação a objetos.&lt;br /&gt;\r\nConhecimentos introdutórios em dados, análise de dados ou inteligência artificial.&lt;br /&gt;\r\nFamiliaridade com APIs REST e SOAP&lt;br /&gt;\r\nConhecimentos básicos em SQL ou manipulação de dados.&lt;br /&gt;\r\nFamiliaridade de controle de versão (Git/GitHub). &lt;br /&gt;\r\n&lt;br /&gt;\r\n&lt;span style=&quot;font-weight: bold&quot;&gt;Conhecimentos desej&lt;/span&gt;&lt;span style=&quot;font-weight: bold&quot;&gt;á&lt;/span&gt;&lt;span style=&quot;font-weight: bold&quot;&gt;veis:&lt;/span&gt;&lt;br /&gt;\r\nConhecimento introdutório de modelos alternativos de RAG.&lt;br /&gt;\r\nExperiência com desenvolvimento envolvedo Machine Learning (ex.: classificação, regressão, clustering).&lt;br /&gt;\r\nNoções de Model Context Protocol (MCP) ou arquiteturas orientadas a contexto.&lt;br /&gt;\r\nContato inicial com fine-tuning de modelos ou adaptação de modelos pré-treinados.&lt;br /&gt;\r\nFamiliaridade com frameworks e bibliotecas de IA&lt;br /&gt;\r\nExperiência acadêmica ou prática com bancos de dados vetoriais.&lt;br /&gt;\r\nNoções básicas de ambientes de computação em nuvem.&lt;br /&gt;\r\nDesejável conhecimento prévio em n8n, Lovable ou afins. &lt;br /&gt;\r\n&lt;br /&gt;\r\n&lt;span style=&quot;font-weight: bold&quot;&gt;Vaga: CLT efetivo&lt;br /&gt;\r\nSalário&lt;/span&gt;: a combinar&lt;br /&gt;\r\n&lt;span style=&quot;font-weight: bold&quot;&gt;Benefícios&lt;/span&gt;: Vale alimentação (Ticket Flex), Ticket Car, Plano de Saúde (UNIMED) e plano odontológico (UNIODONTO);&lt;br /&gt;\r\nHorário: de segunda a sexta-feira das 8h00 ás 18h00 com 2 horas de almoço&lt;br /&gt;\r\n&lt;br /&gt;\r\n ",
+      "description_text": "ANALISTA DE SISTEMA I - com foco em IA\nSão Carlos SP\nDescrição da função\nAtuar diretamente no desenvolvimento de soluções em Inteligência Artificial, contribuindo para a evolução de aplicações institucionais utilizando modelos de linguagem, mecanismos de busca inteligente e fluxos de recuperação e contextualização de informações (RAG) e Model Context Protocol (MCP).\nPrincipais atribuições\nAtuar em iniciativas institucionais que utilizem modelos de linguagem (LLMs) e soluções de Inteligência Artificial aplicada.\nImplementar e manter fluxos básicos de RAG, incluindo indexação, recuperação e contextualização de informações.\nDesenvolver e manter integrações com APIs, sistemas internos e bases de dados institucionais.\nOrganizar, preparar e validar dados estruturados e não estruturados.\nExecutar testes funcionais, validações e atividades de homologação de soluções.\nElaborar e manter documentação técnica de códigos, processos e fluxos.\nAtuar de forma integrada com equipes técnicas e áreas usuárias, em conformidade com normas e procedimentos institucionais.\nZelar pela segurança da informação, confidencialidade e uso adequado dos dados.\nFormação\nEnsino superior cursando ou concluído em Tecnologia da Informação, Ciência de Dados, Engenharia, Computação ou áreas correlatas.\nRequisitos técnicos (essenciais)\nConhecimento básico a intermediário em Python.\nConhecimento introdutório em RAG (Retrieval-Augmented Generation) e Machine Learning.\nNoções de lógica de programação, estrutura de dados e orientação a objetos.\nConhecimentos introdutórios em dados, análise de dados ou inteligência artificial.\nFamiliaridade com APIs REST e SOAP\nConhecimentos básicos em SQL ou manipulação de dados.\nFamiliaridade de controle de versão (Git/GitHub).\nConhecimentos desej\ná\nveis:\nConhecimento introdutório de modelos alternativos de RAG.\nExperiência com desenvolvimento envolvedo Machine Learning (ex.: classificação, regressão, clustering).\nNoções de Model Context Protocol (MCP) ou arquiteturas orientadas a contexto.\nContato inicial com fine-tuning de modelos ou adaptação de modelos pré-treinados.\nFamiliaridade com frameworks e bibliotecas de IA\nExperiência acadêmica ou prática com bancos de dados vetoriais.\nNoções básicas de ambientes de computação em nuvem.\nDesejável conhecimento prévio em n8n, Lovable ou afins.\nVaga: CLT efetivo\nSalário\n: a combinar\nBenefícios\n: Vale alimentação (Ticket Flex), Ticket Car, Plano de Saúde (UNIMED) e plano odontológico (UNIODONTO);\nHorário: de segunda a sexta-feira das 8h00 ás 18h00 com 2 horas de almoço",
+      "requirements": null
+    },
+    {
+      "id": "605287ff-b225-4d67-9e5c-c62a95f7496e",
+      "title": "BANCO DE TALENTOS - (TI) TECNOLOGIA DA INFORMAÇÃO",
+      "location": "São Carlos - SP",
+      "urgent": false,
+      "url": "https://cezcomrh.tweezer.jobs/candidato/vaga/ver_vaga/605287ff-b225-4d67-9e5c-c62a95f7496e",
+      "source": "CezcomRH",
+      "company": "CEZCOM CONSULTORIA & RH LTDA",
+      "contract_type": "FULL_TIME",
+      "description_html": "",
+      "description_text": null,
+      "requirements": null
+    }
+  ]
+}
