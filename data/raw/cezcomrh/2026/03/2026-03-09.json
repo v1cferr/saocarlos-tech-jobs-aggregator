@@ -1,0 +1,37 @@
+{
+  "source": "CezcomRH",
+  "query": {
+    "funcao": "tecnologia",
+    "cidade": "São Carlos"
+  },
+  "scraped_at": "2026-03-09T10:24:15.120240",
+  "total": 2,
+  "vacancies": [
+    {
+      "id": "7825a10b-a3d6-4ca5-9e1d-a704bf2d954f",
+      "title": "ESTÁGIO EM MECÂNICA",
+      "location": "São Carlos - SP",
+      "urgent": false,
+      "url": "https://cezcomrh.tweezer.jobs/candidato/vaga/ver_vaga/7825a10b-a3d6-4ca5-9e1d-a704bf2d954f",
+      "source": "CezcomRH",
+      "company": "CEZCOM CONSULTORIA & RH LTDA",
+      "contract_type": "INTERN",
+      "description_html": "&lt;span style=&quot;font-weight: bold&quot;&gt;Estágio em Mecânica - &lt;/span&gt;São Carlos/SP&lt;br /&gt;\r\n&lt;br /&gt;\r\n&lt;span style=&quot;font-weight: bold&quot;&gt;Perfil do Candidato:&lt;/span&gt;\r\n&lt;ul&gt;\r\n\t&lt;li&gt;Perfil proativo, com disposição para aprendizado e desenvolvimento técnico.&lt;/li&gt;\r\n\t&lt;li&gt;Flexibilidade para lidar com mudanças e novos desafios.&lt;/li&gt;\r\n\t&lt;li&gt;Facilidade para trabalho em equipe.&lt;/li&gt;\r\n\t&lt;li&gt;Habilidade para atividades manuais.&lt;/li&gt;\r\n\t&lt;li&gt;​Bom nível de atenção concentrada, visando reduzir erros operacionais.&lt;/li&gt;\r\n&lt;/ul&gt;\r\n&lt;span style=&quot;font-weight: bold&quot;&gt;Formação:&lt;/span&gt;\r\n\r\n&lt;ul&gt;\r\n\t&lt;li&gt;Ensino Médio cursando ou completo.&lt;/li&gt;\r\n\t&lt;li&gt;​Estar regularmente matriculado em curso técnico de Mecatrônica, Tecnologia de Fabricação Mecânica ou áreas correlatas, em instituições como SENAI, ETEC Paulino Botelho ou outras entidades habilitadas para formalização de contrato de estágio.&lt;/li&gt;\r\n&lt;/ul&gt;\r\n&lt;span style=&quot;font-weight: bold&quot;&gt;Informações da Vaga: &lt;/span&gt;\r\n\r\n&lt;ul&gt;\r\n\t&lt;li&gt;Bolsa estágio.&lt;/li&gt;\r\n\t&lt;li&gt;Carga horária: 30 horas semanais (a combinar).​&lt;/li&gt;\r\n\t&lt;li&gt;Excelente ambiente para aprendizado e desenvolvimento profissional.&lt;/li&gt;\r\n&lt;/ul&gt;\r\n&lt;span style=&quot;font-weight: bold&quot;&gt;Possíveis jornadas de estágio:&lt;/span&gt;\r\n\r\n&lt;ul&gt;\r\n\t&lt;li&gt;Segunda a sábado, das 6:00 às 11:00.&lt;/li&gt;\r\n\t&lt;li&gt;Segunda a sábado, das 8:00 às 11:00 e das 12:00 às 14:00.&lt;/li&gt;\r\n\t&lt;li&gt;​Segunda a sexta, das 7:00 às 11:00 e das 12:00 às 14:00.&lt;/li&gt;\r\n&lt;/ul&gt;\r\n",
+      "description_text": "Estágio em Mecânica -\nSão Carlos/SP\nPerfil do Candidato:\nPerfil proativo, com disposição para aprendizado e desenvolvimento técnico.\nFlexibilidade para lidar com mudanças e novos desafios.\nFacilidade para trabalho em equipe.\nHabilidade para atividades manuais.\n​Bom nível de atenção concentrada, visando reduzir erros operacionais.\nFormação:\nEnsino Médio cursando ou completo.\n​Estar regularmente matriculado em curso técnico de Mecatrônica, Tecnologia de Fabricação Mecânica ou áreas correlatas, em instituições como SENAI, ETEC Paulino Botelho ou outras entidades habilitadas para formalização de contrato de estágio.\nInformações da Vaga:\nBolsa estágio.\nCarga horária: 30 horas semanais (a combinar).​\nExcelente ambiente para aprendizado e desenvolvimento profissional.\nPossíveis jornadas de estágio:\nSegunda a sábado, das 6:00 às 11:00.\nSegunda a sábado, das 8:00 às 11:00 e das 12:00 às 14:00.\n​Segunda a sexta, das 7:00 às 11:00 e das 12:00 às 14:00.",
+      "requirements": null
+    },
+    {
+      "id": "605287ff-b225-4d67-9e5c-c62a95f7496e",
+      "title": "BANCO DE TALENTOS - (TI) TECNOLOGIA DA INFORMAÇÃO",
+      "location": "São Carlos - SP",
+      "urgent": false,
+      "url": "https://cezcomrh.tweezer.jobs/candidato/vaga/ver_vaga/605287ff-b225-4d67-9e5c-c62a95f7496e",
+      "source": "CezcomRH",
+      "company": "CEZCOM CONSULTORIA & RH LTDA",
+      "contract_type": "FULL_TIME",
+      "description_html": "",
+      "description_text": null,
+      "requirements": null
+    }
+  ]
+}
